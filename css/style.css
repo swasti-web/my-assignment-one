@@ -230,6 +230,101 @@ body{
     color: #0E0E0E;
     opacity: 70%;
 }
+/* donate start */
+.donate-title{
+    font-size: 50px;
+    font-weight: 700;
+    color: #0E0E0E;
+}
+.donate-description{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 31px;
+    color: #0E0E0E;
+    opacity: 70%;
+}
+.donate-amount{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin: 42px 0;
+}
+.donate-item{
+    min-width: 240px;
+    padding: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    border-radius: 16px;
+    transition: .33s all linear;
+    cursor: pointer;
+}
+.active{
+    background-color: #C6E4D6;
+}
+.donate-item:hover{
+    background-color: #C6E4D6;
+    color: #0E0E0E;
+}
+.money{
+    font-size: 40px;
+    font-weight: 700;
+    color: #0E0E0E;
+    opacity: 80%;
+}
+.form-content{
+    display: flex;
+    justify-content: center;
+}
+input{
+    min-width: 950px;
+    padding: 15px;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 32px 0;
+}
+input[type="text"]{
+    text-align: center;
+    padding: 15px 0;
+    font-size: 20px;
+    font-weight: 400;
+    color: #0E0E0E;
+    opacity: 30%;
+}
+input[type="text"]:focus{
+    outline: none;
+}
+.donate-btn{
+    margin-top: 32px;
+}
+/* newsletter start */
+.news-letter{
+    padding-bottom: 106px;
+}
+.total-letter{
+    padding: 80px 265px;
+}
+.news-letter-title{
+    font-size: 40px;
+    font-weight: 700;
+    color: #0E0E0E;
+}
+.news-letter-description{
+    padding: 21px 0 31px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #0E0E0E;
+    opacity: 70%;
+}
+.news-bg{
+    background-color: #C6E4D6;
+    border-radius: 21px;
+    padding: 60px 50px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.subtitle{
+    padding-top: 24px;
+}
 /* footer start */
 footer{
     background-color: white;
