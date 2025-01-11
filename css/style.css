@@ -94,3 +94,30 @@ body{
     font-weight: 700;
     color: #0E0E0E;
 }
+/* pillar end */
+.vision{}
+.vision-top{}
+.vision-title{}
+.vision-text{}
+.vision-items{
+    display: flex;
+    justify-content: space-between;
+    gap: 31px;
+}
+.vision-item{
+    max-width: 400px;
+    background-color: #fff;
+    padding: 31px;
+    border: 1px solid;
+    border-radius: 21px;
+    text-align: justify;
+}
+.vision-bottom{
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position: 10px 25px 100px 0;
+    background-color: #fff;
+    border: 1px solid;
+    border-radius: 21px;
+    padding: 31px 63px;
+}
