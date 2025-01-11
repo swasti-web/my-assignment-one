@@ -44,6 +44,7 @@ body{
 .btn:hover{
     background-color: #006A50;
     color: #fff;
+    cursor: pointer;
 }
 .header-bottom{
     display: flex;
@@ -245,10 +246,10 @@ footer h2{
     width: 1122px;
     margin:  32px auto;
 }
-.social-icon img{
+.social-icon a{
    margin-right: 23px;
 }
-.social-icon img:last-child{
+.social-icon a:last-child{
     margin-right: 0;
 }
 /* footer end */
