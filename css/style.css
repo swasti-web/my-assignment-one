@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* font-family: "Fira Sans", serif; */
+body{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 21px;
+    line-height: 31px;
+    color: #0E0E0E;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1702px;
+    margin: 0 160px;
+}
+.cp{
+    padding: 106px 0;
+}
+.m-0{
+    margin: 0;
+}
+.header-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 26px 0;
+}
+.header-h1{
+    font-size: 32px;
+    font-weight: 700;
+}
+.btn{
+    font-size: 23px;
+    font-weight: 600;
+    padding: 20px 40px;
+    border: 1px solid #006A50;
+    border-radius: 10px;
+    color: #006A50;
+}
+.btn:hover{
+    background-color: #006A50;
+    color: #fff;
+}
+.header-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #C6E4D6;
+    border-radius: 31px;
+    padding: 117px 59px;
+}
+.banner-text{
+    max-width: 720px;
+}
+.banner-text h4{
+    font-size: 24px;
+    font-weight: 500;
+    color: #0E0E0E;
+    opacity: 50%;
+}
+.banner-text h1{
+    font-size: 66px;
+    line-height: 85px;
+    font-weight: 700;
+    color: #0E0E0E;
+    margin: 20px 0;
+}
+.banner-image{
+    max-width: 474px;
+}
+.banner-image img{
+    width: 100%;
+}
+/* header end */
+.pillars{}
+.pillars-title{}
+.pillars-items{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 42px;
+    gap: 31px;
+}
+.pillar-item{
+    max-width: 400px;
+    background-color: #fff;
+    padding: 31px;
+    border: 1px solid;
+    border-radius: 21px;
+    text-align: justify;
+}
+.pillar-item h3{
+    font-size: 32px;
+    font-weight: 700;
+    color: #0E0E0E;
+}
